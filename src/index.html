@@ -3,8 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
+    <style>
+      body{
+        background-color: gray;
+      }
+      div{
+        width: 100px;
+        height: 100px;
+        background-color:blue;
+        animation-name: test;
+        animation-duration: 2s;
+        position: relative;
+        animation-iteration-count: infinite;
+      }
+      @keyframes test{
+        0%{background-color: chartreuse; left: 0px;}
+        50%{background-color: coral; left: 200px;}
+        100%{background-color: chartreuse; left: 0px;}
+      }
+      </style>
+
+      
+
   </head>
   <body>
     This is a test project to test auto-update. And even installing it.
   </body>
+
+  <div>Bing</div>
+  
 </html>
